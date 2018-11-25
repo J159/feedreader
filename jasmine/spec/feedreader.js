@@ -73,6 +73,18 @@ $(function() {
       * clicked and does it hide when clicked again.
       */
 
+      it('changes visibility when menu icon is clicked', function() {
+        let body = document.querySelector('body');
+        let menu = document.querySelector('.menu-icon-link');
+
+        // first click reveals menu
+        menu.click();
+        expect(body.classList.contains('menu-hidden')).toBe(false);
+
+        // second click hides menu
+        menu.click();
+        expect(body.classList.contains('menu-hidden')).toBe(true);
+      });
     });
 
 
