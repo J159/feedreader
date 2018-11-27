@@ -1,14 +1,14 @@
-# Feedreader Testing!
+# Feedreader Testing
 
 ## Description
 
 Project 4 Feedreader Testing - Udacity Front End Web Development Nanodegree.
 
-A project on writing effective tests in Jasmine to verify several Feedreader features. HTML, CSS, app.js, fonts, and Jasmine version 2.1.2 provided by Udacity.
+A project on writing effective tests in Jasmine to verify several Feedreader functions. HTML, CSS, app.js, fonts, and Jasmine version 2.1.2 provided by Udacity.
 
 A summary of the Suites/Tests are listed below:
 
-* Suite 1 - RSS Feeds: verifies that feeds are defined, have a URL, and a name
+* Suite 1 - RSS Feeds: verify feeds are defined and have a URL and name
 
 * Suite 2 - The Menu: tests if menu is hidden by default and changes visibility when menu icon is clicked
 
@@ -18,4 +18,4 @@ A summary of the Suites/Tests are listed below:
 
 ## How to Use
 
-Load index.html to your browser. The feedreader application will load along side Jasmine, which will verify whether suite tests will pass or not. All tests are written inside feedreader.js file.
+Load index.html to your browser. The feedreader application will load along side Jasmine, which will verify whether suite tests pass or not. All tests are written inside feedreader.js file.
