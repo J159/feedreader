@@ -63,8 +63,8 @@ $(function() {
       });
 
       it('has at least one entry within the feed container', function() {
-        let feed = document.querySelector('.feed');
-        expect(feed.children.length).toBeGreaterThan(0);
+        let feed = document.querySelectorAll('.feed .entry');
+        expect(feed.length).toBeGreaterThan(0);
       });
     });
 
